@@ -3,7 +3,7 @@
     'name': "Matrix System: Sequential Number for Barcode",
 
     'summary': """
-       
+       Adding product group number to the barcode
     """,
 
     'description': """
@@ -29,7 +29,8 @@ work the same way as the studio field, since we do not use Studio field for deve
 
     # always loaded
     'data': [
-        'views/product_template_form_inherit.xml',
-        'views/product_group_form.xml'
+        'security/ir.model.access.csv',
+        'views/product_views_inherits.xml',
+        'views/product_group.xml'
     ],
 }
