@@ -16,7 +16,7 @@
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view"/>
         <field name="arch" type="xml">
-            <field name="categ_id" position="after">
+            <field name="type" position="after">
                 <field name="product_group"/>
             </field>
         </field>
