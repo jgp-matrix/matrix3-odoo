@@ -14,6 +14,7 @@
                         <group>
                             <group>
                                 <field name='name' string="Product Group Name"/>
+                                <field name='seq' string="Sequence"/>
                             </group>
                             <group>
                                 <field name='code' string="Two digit code"/>
