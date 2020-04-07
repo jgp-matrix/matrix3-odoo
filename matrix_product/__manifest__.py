@@ -32,6 +32,7 @@ work the same way as the studio field, since we do not use Studio field for deve
         'security/ir.model.access.csv',
         'data/product_sequence.xml',
         'views/product_views_inherits.xml',
-        'views/product_group.xml'
+        'views/product_group.xml',
+        'views/product_group_list.xml'
     ],
 }
