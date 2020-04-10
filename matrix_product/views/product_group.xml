@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="product_group_form_matrix" model="ir.ui.view">
+            <field name="name">product.group.form</field>
+            <field name="model">matrix_product.productgroup</field>
+            <field name="mode">primary</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <h1>Product Group</h1>       
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name='name' string="Product Group Name"/>
+                                <field name='seq' string="Sequence"/>
+                            </group>
+                            <group>
+                                <field name='code' string="Two digit code"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
