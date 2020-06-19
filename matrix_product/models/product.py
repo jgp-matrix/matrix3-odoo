@@ -5,6 +5,7 @@ from odoo import api, models, fields, _
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
+    show_portal = fields.Boolean(string="Don't Show on Portal")
     product_group = fields.Many2one('matrix_product.productgroup',
         string='Product Group', required=True)
 
