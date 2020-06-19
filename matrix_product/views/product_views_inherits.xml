@@ -8,6 +8,11 @@
             <field name="categ_id" position="after">
                 <field name="product_group"/>
             </field>
+            <group name="sale" position="inside">
+                <group>
+                    <field name="show_portal" string="Don't Show on Portal"/>
+                </group>
+            </group>
         </field>
     </record>
 
@@ -19,6 +24,11 @@
             <field name="type" position="after">
                 <field name="product_group"/>
             </field>
+            <group name="sale" position="inside">
+                <group>
+                    <field name="show_portal" string="Don't Show on Portal"/>
+                </group>
+            </group>
         </field>
     </record>
 </odoo>
