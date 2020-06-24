@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="True">
+        <record id="product_sequence_matrix" model="ir.sequence">
+            <field name="implementation">standard</field>
+            <field name="name">Product Barcode Sequence</field>
+            <field name="code">product</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="padding">5</field>
+            <field name="prefix">9</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>
