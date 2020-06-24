@@ -25,7 +25,7 @@ work the same way as the studio field, since we do not use Studio field for deve
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['product','stock'],
+    'depends': ['product','stock','sale'],
 
     # always loaded
     'data': [
@@ -33,6 +33,7 @@ work the same way as the studio field, since we do not use Studio field for deve
         'data/product_sequence.xml',
         'views/product_views_inherits.xml',
         'views/product_group.xml',
-        'views/product_group_list.xml'
+        'views/product_group_list.xml',
+        'views/sale_order_document_inherit.xml',
     ],
 }
